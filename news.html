@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Полярная Правда">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Полярная Правда</title>
+
+<link rel="shortcut icon" href="favicon.png">
+
+<link rel="stylesheet" href="css/material.min.css">
+<link rel="stylesheet" href="css/pravda.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+  <header class="demo-header mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Главная лента
+      <span class="mdl-layout-title-2">Новости</span></span>
+
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon more-hidden" id="id-more">
+        <i class="material-icons">keyboard_arrow_down</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="id-more">
+        <li class="mdl-menu__item active"><a href="">Новости</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Статьи</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Блоги</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Трибуна</a></li>
+      </ul>
+
+    </div>
+  </header>
+  <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable demo-search search-hidden-2">
+      <label class="mdl-button mdl-js-button mdl-button--icon" for="search1">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" id="search1">
+        <label class="mdl-textfield__label" for="search1">Поиск...</label>
+      </div>
+    </div>
+
+    <div class="demo-close button-collapse "><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-navigation__link-drawer" id="id-more">
+      <i class="material-icons">close</i>
+    </button></div>
+
+  <a href="">
+    <header class="demo-drawer-header mdl-shadow--2dp">
+      <p class="profile"><i class="material-icons">person</i> Вы не вошли</p>
+    </header>
+  </a>
+
+    <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+
+<ul class="demo-list-item mdl-list">
+<li class="mdl-list__item">
+<span class="mdl-list__item-primary-content"><a href="">Главная лента</a></span></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Расследования</a></li>
+<li class="mdl-list__item"><a href="">Темы</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Закон</a></li>
+<li class="mdl-list__item"><a href="">ЖКХ</a></li>
+<li class="mdl-list__item"><a href="">Политика</a></li>
+<li class="mdl-list__item"><a href="">Происшествия</a></li>
+<li class="mdl-list__item"><a href="">За рулем</a></li>
+<li class="mdl-list__item"><a href="">Общество</a></li>
+<li class="mdl-list__item"><a href="">Культура</a></li>
+<li class="mdl-list__item"><a href="">Спорт</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Авторы</a></li>
+<li class="mdl-list__item"><a href="">Персонажи</a></li>
+<li class="mdl-list__item"><a href="">Организации</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Информация</a></li>
+<li class="mdl-list__item"><a href="">Контакты</a></li>
+</ul>
+
+    </nav>
+  </div>
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-grid demo-content">
+
+<div class="mdl-cell mdl-cell--8-col">
+
+<div class="demo-card mdl-shadow--2dp search-hidden">
+  <div class="mdl-card__text-2">
+
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+
+  <button class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+    <i class="material-icons">search</i>
+  </button>
+ 
+    <input class="mdl-textfield__input" type="text" id="id-search">
+    <label class="mdl-textfield__label" for="id-search">Поиск...</label>
+  </div>
+</form>
+
+</div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__meta">
+    <div class="pull-left rubric"><a href="">Новости</a></div>
+    <div class="pull-right">Вчера, 09:11</div>
+  </div>
+  <div class="mdl-card__meta mdl-card__meta-2">
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Петя Васильев</a></div>
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Петя Васильев</a></div>
+    <div>...</div>
+  </div>
+
+  <div class="mdl-card__title">Дмитрий Медведев дал старт созданию опорного вуза в Мурманской области</div>
+
+  <div class="mdl-card__media">
+    <a href=""><img src="img/img-1.jpg" alt=""></a>
+    <p class="img-src">Фото с сайта <a href="">government.ru</a></p>
+  </div>
+
+  <div class="mdl-card__text-3">
+    <p>8 апреля председателем правительства Дмитрием Медведевым было подписано распоряжение о переводе Мурманского государственного технического университета в ведение Министерства образования и науки Российской Федерации.</p>
+
+    <p>Перевод МГТУ в ведение <a href="">Министерства образования и науки</a> — это первый этап к созданию нового регионального опорного вуза под названием Мурманский арктический государственный университет. Слияние должно завершиться в течение двух  месяцев.</p>
+
+    <p>— Создание такого опорного регионального университета позволит решить одну амбициозную задачу, которая поставлена перед нами, — говорит Екатерина Панькова, заместитель министра образования и науки Мурманской области. — Позволит решить наши проблемы кадрового обеспечения предприятий региона, так и укрепить материально-техническую базу высшего образования.</p>
+
+    <p>По заверениям специалистов, такое объединение двух вузов, никак не скажется на учебном процессе и на процессе поступлении абитуриентов в этом году. Заново проходить аккредитацию вузам тоже не придётся, все свидетельства и лицензии будут действительны до окончания срока их действия — 2019 год.</p>
+
+    <p>Журналисты поинтересовались, а кто составит конкуренцию такому огромному университету, если в городе практически не осталось высших учебных заведений?</p>
+
+    <p>— Вузы должны конкурировать друг с другом. И в этом смысле, не важно, где они находятся. Российские вузы должны конкурировать друг с другом на территории Российской Федерации, я ещё бы хорошо — в пределах Баренц-Арктического региона, — ответил Андрей Сергеев, ректор МАГУ.</p>
+
+    <p>Морских специальностей такая модернизация тоже не коснётся, так как будущее руководство опорного университета обещает сохранить даже форму и старые традиции «вышки».</p>
+
+    <p>— Была согласована общая позиция о том, что все морские специальности будут сохранены, — уверяет Екатерина Панькова, заместитель министра образования и науки Мурманской области. — Бюджетных мест в новом университете меньше не станет, а вот зарплаты педагогов и стипендии должны вырасти.</p>
+
+    <p>— Министр дала все гарантии. Что вам нужно? — задаётся вопросом Андрей Сергеев, ректор МАГУ. — Все остальные гарантии сохраним.</p>
+
+    <p>Такое слияние затрагивает и среднюю мореходку.</p>
+
+    <p>— Я бы не выделял отдельно среднюю и высшую мореходки. Скорее всего, это будет одна институализация, скорее всего, морская академия в целом, — заметил Андрей Сергеев, ректор МАГУ.</p>
+
+    <p>Как заверяют специалисты, создание такого опорного учебного заведения позволит выпускать высококвалифицированные кадры, привлекать абитуриентов из других регионов.</p>
+
+    <div class="tags"><a href="">Медведев</a><a href="">МГТУ</a></div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+
+<div class="pull-left">Поделиться</div>
+<div class="pull-right">
+<a href="" class="mdl-button"><i class="material-icons">thumb_down</i></a><span class="act-raiting">+17</span><a href="" class="mdl-button"><i class="material-icons">thumb_up</i></a>
+</div>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp ">
+  <div class="mdl-card__text-2">
+    <a href="" class="show-more">Дать оценку (18)</a>
+  </div>
+</div> 
+
+</div>
+
+<div class="demo-cards mdl-cell mdl-cell--4-col right-hidden">
+
+<div class="demo-card mdl-shadow--2dp">
+  <a href=""><div class="mdl-card__logo"><img src="img/logo.png"></div></a>
+</div>
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__right">
+
+<ul class="demo-list-item mdl-list">
+<li class="mdl-list__item"><a href="">Новости</a></li>
+<li class="mdl-list__item"><a href="">Статьи</a></li>
+<li class="mdl-list__item"><a href="">Блоги</a></li>
+<li class="mdl-list__item"><a href="">Трибуна</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Все</a></li>
+</ul>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp ">
+  <div class="mdl-card__media">
+    <a href=""><img src="img/reklama.jpg" alt=""></a>
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp ">
+  <div class="mdl-card__media">
+    <a href=""><img src="img/reklama.jpg" alt=""></a>
+  </div>
+</div>
+
+<div class="demo-card footer">
+  <div class="mdl-card__text">
+    <p>Полярная правда © 2017</p>
+    <p><a href="">Правила использования материалов сайта</a></p>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </main>
+</div>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/material.min.js"></script>
+
+</body>
+</html>

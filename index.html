@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Полярная Правда">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Полярная Правда</title>
+
+<link rel="shortcut icon" href="favicon.png">
+
+<link rel="stylesheet" href="css/material.min.css">
+<link rel="stylesheet" href="css/pravda.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+  <header class="demo-header mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Главная лента
+      <span class="mdl-layout-title-2">Новости</span></span>
+
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon more-hidden" id="id-more">
+        <i class="material-icons">keyboard_arrow_down</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="id-more">
+        <li class="mdl-menu__item active"><a href="">Новости</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Статьи</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Блоги</a></li>
+        <li class="divider"></li>
+        <li class="mdl-menu__item"><a href="">Трибуна</a></li>
+      </ul>
+
+    </div>
+  </header>
+  <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable demo-search search-hidden-2">
+      <label class="mdl-button mdl-js-button mdl-button--icon" for="search1">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" id="search1">
+        <label class="mdl-textfield__label" for="search1">Поиск...</label>
+      </div>
+    </div>
+
+    <div class="demo-close button-collapse "><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-navigation__link-drawer" id="id-more">
+      <i class="material-icons">close</i>
+    </button></div>
+
+    <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+
+<div class="demo-drawer-header mdl-shadow--2dp">
+  <a href=""><div class="mdl-card__logo"><img src="img/logo.png"></div></a>
+</div>
+
+<ul class="demo-list-item mdl-list">
+<li class="mdl-list__item">
+<span class="mdl-list__item-primary-content"><a href="">Главная лента</a></span></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Расследования</a></li>
+<li class="mdl-list__item"><a href="">Темы</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Закон</a></li>
+<li class="mdl-list__item"><a href="">ЖКХ</a></li>
+<li class="mdl-list__item"><a href="">Политика</a></li>
+<li class="mdl-list__item"><a href="">Происшествия</a></li>
+<li class="mdl-list__item"><a href="">За рулем</a></li>
+<li class="mdl-list__item"><a href="">Общество</a></li>
+<li class="mdl-list__item"><a href="">Культура</a></li>
+<li class="mdl-list__item"><a href="">Спорт</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Авторы</a></li>
+<li class="mdl-list__item"><a href="">Персонажи</a></li>
+<li class="mdl-list__item"><a href="">Организации</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Информация</a></li>
+<li class="mdl-list__item"><a href="">Контакты</a></li>
+</ul>
+
+    </nav>
+  </div>
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-grid demo-content">
+
+<div class="mdl-cell mdl-cell--8-col">
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__meta">
+    <div class="pull-left rubric"><a href="">Новости</a></div>
+    <div class="pull-right">Сегодня, 05:19</div>
+  </div>
+  <div class="mdl-card__meta mdl-card__meta-2">
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Коля Кузьмин</a></div>
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Петя Васильев</a></div>
+    <div>...</div>
+  </div>
+
+  <div class="mdl-card__title"><a href="">Дмитрий Медведев дал старт созданию опорного вуза в Мурманской области</a></div>
+  <div class="mdl-card__media"><a href=""><img src="img/img-1.jpg" alt=""></a></div>
+  <div class="mdl-card__text">
+    <a href="">8 апреля председателем правительства Дмитрием Медведевым было подписано распоряжение о переводе Мурманского государственного технического университета в ведение Министерства образования и науки Российской Федерации.</a>
+    <div class="tags"><a href="">Медведев</a><a href="">МГТУ</a></div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+
+<div class="pull-left">
+<a href="" class="mdl-button act-comment"><i class="material-icons md-18">message</i> 11</a>
+<span class="mdl-button act-view"><i class="material-icons">visibility</i> 2141</span>
+</div>
+<div class="pull-right">
+<a href="" class="mdl-button"><i class="material-icons">thumb_down</i></a><span class="act-raiting">+17</span><a href="" class="mdl-button"><i class="material-icons">thumb_up</i></a>
+</div>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__meta">
+    <div class="pull-left rubric"><a href="">Новости</a></div>
+    <div class="pull-right">Вчера, 05:19</div>
+  </div>
+  <div class="mdl-card__meta mdl-card__meta-2">
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Коля Кузьмин</a></div>
+  </div>
+
+  <div class="mdl-card__title"><a href="">Подготовка передовых подразделений ВДВ России к десантированию на о. Новая Земля и о. Земля Франца-Иосифа</a></div>
+  <div class="mdl-card__media"><a href=""><img src="img/img-3.jpg" alt=""></a></div>
+  <div class="mdl-card__text">
+    <a href="">Подготовка передовых подразделений ВДВ России к десантированию на о. Новая Земля и о. Земля Франца-Иосифа.</a>
+    <div class="tags"><a href="">Минобороны</a><a href="">ВДВ</a></div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+
+<div class="pull-left">
+<a href="" class="mdl-button act-comment"><i class="material-icons md-18">message</i> 11</a>
+<span class="mdl-button act-view"><i class="material-icons">visibility</i> 2141</span>
+</div>
+<div class="pull-right">
+<a href="" class="mdl-button"><i class="material-icons">thumb_down</i></a><span class="act-raiting-minus">–1</span><a href="" class="mdl-button"><i class="material-icons">thumb_up</i></a>
+</div>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__meta">
+    <div class="pull-left rubric"><a href="">Блоги</a></div>
+    <div class="pull-right">Вчера, 09:11</div>
+  </div>
+  <div class="mdl-card__meta mdl-card__meta-2">
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Петя Васильев</a></div>
+  </div>
+
+  <div class="mdl-card__title"><a href="">Мурманчане борются с телефонными мошенниками крепким словом</a></div>
+  <div class="mdl-card__media"><a href=""><img src="img/img-4.jpg" alt=""></a></div>
+  <div class="mdl-card__text">
+    <a href="">Телефонные и интернет-мошенники ежегодно терроризируют жителей Мурманской области. Расследовать такие преступления и вернуть пострадавшим деньги — крайне сложно. Полицейские стараются работать на опережение и регулярно предупреждают мурманчан о том, что верить информации, полученной от незнакомых абонентов и случайных знакомых в сети интернет — нельзя. Одна из таких акций прошла сегодня в центре города.</a>
+    <div class="tags"><a href="">Мошенники</a><a href="">Деньги</a></div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+
+<div class="pull-left">
+<a href="" class="mdl-button act-comment"><i class="material-icons md-18">message</i> 11</a>
+<span class="mdl-button act-view"><i class="material-icons">visibility</i> 2141</span>
+</div>
+<div class="pull-right">
+<a href="" class="mdl-button"><i class="material-icons">thumb_down</i></a><span class="act-raiting">+17</span><a href="" class="mdl-button"><i class="material-icons">thumb_up</i></a>
+</div>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__meta">
+    <div class="pull-left rubric"><a href="">Статьи</a></div>
+    <div class="pull-right">18 апреля, 09:11</div>
+  </div>
+  <div class="mdl-card__meta mdl-card__meta-2">
+    <div><a href="" class="profile"><img class="mdl-chip__contact" src="img/face.jpg"> Вероника Селиверстова</a></div>
+  </div>
+
+  <div class="mdl-card__title"><a href="">Нелетные права пассажиров</a></div>
+  <div class="mdl-card__media"><a href=""><img src="img/img-2.jpg" alt=""></a></div>
+  <div class="mdl-card__text">
+    <a href="">Как быть, если поезд уехал, а самолет не вылетел вовремя из-за метеоусловий. Эта история началась так. Перед Новым годом главный редактор «Полярной правды» Вероника Селиверстова рисковала не вернуться из Петербурга домой на праздники. Билет взяла на 30 декабря до Апатитов, но самолет «Псковавиа» в назначенный день по погодным условиям не вылетел. </a>
+    <div class="tags"><a href="">Аэропорт</a><a href="">Новый год</a><a href="">Псковавиа</a></div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+
+<div class="pull-left">
+<a href="" class="mdl-button act-comment"><i class="material-icons md-18">message</i> 11</a>
+<span class="mdl-button act-view"><i class="material-icons">visibility</i> 2141</span>
+</div>
+<div class="pull-right">
+<a href="" class="mdl-button"><i class="material-icons">thumb_down</i></a><span class="act-raiting">+17</span><a href="" class="mdl-button"><i class="material-icons">thumb_up</i></a>
+</div>
+
+  </div>
+</div>
+
+</div>
+
+<div class="demo-cards mdl-cell mdl-cell--4-col right-hidden">
+
+<div class="demo-card mdl-shadow--2dp">
+  <div class="mdl-card__right">
+
+<ul class="demo-list-item mdl-list">
+<li class="mdl-list__item"><a href="">Новости</a></li>
+<li class="mdl-list__item"><a href="">Статьи</a></li>
+<li class="mdl-list__item"><a href="">Блоги</a></li>
+<li class="mdl-list__item"><a href="">Трибуна</a></li>
+<li class="divider"></li>
+<li class="mdl-list__item"><a href="">Все</a></li>
+</ul>
+
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp ">
+  <div class="mdl-card__media">
+    <a href=""><img src="img/reklama.jpg" alt=""></a>
+  </div>
+</div>
+
+<div class="demo-card mdl-shadow--2dp ">
+  <div class="mdl-card__media">
+    <a href=""><img src="img/reklama.jpg" alt=""></a>
+  </div>
+</div>
+
+<div class="demo-card footer">
+  <div class="mdl-card__text">
+    <p>Полярная правда © 2017</p>
+    <p><a href="">Правила использования материалов сайта</a></p>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </main>
+</div>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/material.min.js"></script>
+
+</body>
+</html>
